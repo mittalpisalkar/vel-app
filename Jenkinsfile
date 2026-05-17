@@ -1,6 +1,6 @@
 pipeline {
      agent {
-          label "build-in"
+          label "slave2"
      }
 stages {
      stage ('one') {
@@ -14,7 +14,7 @@ stages {
      stage ('two') {
         steps {
 
-           echo " sudo git --version"
+           echo "sudo git --version"
 
 
 }
