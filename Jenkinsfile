@@ -14,7 +14,7 @@ stages {
      stage ('two') {
         steps {
 
-           echo " sudo git --version"
+           echo "sudo git --version"
 
 
 }
