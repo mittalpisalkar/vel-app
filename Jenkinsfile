@@ -9,5 +9,13 @@ stages {
 
 }
 }
+     stage ('two') {
+        steps {
+
+           echo "repository cloned 2"
+
+
+}
+}
 }
 }
